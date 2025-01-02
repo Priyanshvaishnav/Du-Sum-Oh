@@ -12,3 +12,16 @@ To get started, clone this repository to your local machine:
 ```bash
 git clone https://github.com/Priyanshvaishnav/Du-Sum-Oh.git
 cd Du-Sum-Oh
+```
+
+### 2. Installing
+```bash
+npm init -y
+npm install express
+```
+
+
+### 3. Running the application
+```bash
+node server.js
+```
