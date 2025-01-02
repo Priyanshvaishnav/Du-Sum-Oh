@@ -10,5 +10,5 @@ This is a simple Sudoku puzzle app built using Node.js and Express. The backend 
 To get started, clone this repository to your local machine:
 
 ```bash
-git clone [https://github.com/yourusername/sudoku-puzzle-nodejs.git](https://github.com/Priyanshvaishnav/Du-Sum-Oh.git)
+git clone https://github.com/Priyanshvaishnav/Du-Sum-Oh.git
 cd Du-Sum-Oh
