@@ -25,3 +25,14 @@ npm install express
 ```bash
 node server.js
 ```
+
+
+### 4. Building Docker Image
+```bash
+docker build -t sudoku-app .
+```
+
+### 5. Running Container
+```bash
+docker run -p 3000:3000 sudoku-app
+```
