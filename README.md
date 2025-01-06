@@ -27,16 +27,23 @@ node server.js
 ```
 
 
-### 4. Building Docker Image
+### 4. Building Docker Image 
+For this first you have to login to Docker Desktop
 ```bash
-docker build -t sudoku-app .
+docker build -t <username_of_docker-desktop>/k8s-node-app:v1 .
+
 ```
 
 ### 5. Running Container
 ```bash
-docker run -p 3000:3000 sudoku-app
+docker run -p 3000:3000 <username>/k8s-node-app:v1
 ```
-### 6: Deploy the Application on Kubernetes
+### 6: Pushing 
+```bash
+docker push <username>/k8s-node-app:v1
+
+```
+### 7: Deploy the Application on Kubernetes
 Now that the Docker image is built and pushed, you can follow the earlier steps to deploy your application on Kubernetes.
 Apply the Kubernetes configuration:
 ```bash
