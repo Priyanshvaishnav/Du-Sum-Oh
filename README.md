@@ -36,3 +36,13 @@ docker build -t sudoku-app .
 ```bash
 docker run -p 3000:3000 sudoku-app
 ```
+### 6: Deploy the Application on Kubernetes
+Now that the Docker image is built and pushed, you can follow the earlier steps to deploy your application on Kubernetes.
+Apply the Kubernetes configuration:
+```bash
+kubectl apply -f deployment.yaml
+```
+Check the status of your pods:
+```bash
+kubectl get pods
+```
