@@ -66,13 +66,13 @@ This document describes the steps taken for setting up CI using Jenkins, SonarQu
 
 ## **Pipeline Results**
 ### **1️⃣ CI Pipeline Execution Result**
-![Pipeline Result](images/pipeline-result.png)
+![Pipeline Result](pipeline-pages/pipeline.png)
 
 ### **2️⃣ Jenkins Credentials Setup**
-![Jenkins Credentials](images/jenkins-cred.png)
+![Jenkins Credentials](pipeline-pages/cred.png)
 
 ### **3️⃣ SonarQube Overview**
-![SonarQube Overview](images/sonarqube-overview.png)
+![SonarQube Overview](pipeline-pages/sonarqube.png)
 
 ---
 
