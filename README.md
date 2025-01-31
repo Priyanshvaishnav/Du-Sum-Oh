@@ -43,3 +43,41 @@ docker run -p 3000:3000 <username>/<imagename>
 docker push <username>/<imagename>:version
 ```
 
+
+
+
+# Continuous Integration (CI) Setup
+
+This document describes the steps taken for setting up CI using Jenkins, SonarQube, and Trivy.
+
+## Step 1: Install Jenkins, OpenJDK, and SonarQube
+- Installed Jenkins, OpenJDK, and SonarQube using Docker images.
+- Installed Trivy for security scanning.
+
+## Step 2: Setup Jenkins
+- Installed important plugins.
+- Connected SonarQube and Jenkins using webhooks.
+
+## Step 3: Create and Run the CI Pipeline
+- Configured multiple stages in the Jenkins pipeline.
+- Integrated SonarQube for code quality analysis.
+
+---
+
+## **Pipeline Results**
+### **1️⃣ CI Pipeline Execution Result**
+![Pipeline Result](images/pipeline-result.png)
+
+### **2️⃣ Jenkins Credentials Setup**
+![Jenkins Credentials](images/jenkins-cred.png)
+
+### **3️⃣ SonarQube Overview**
+![SonarQube Overview](images/sonarqube-overview.png)
+
+---
+
+## **Conclusion**
+The CI pipeline successfully executes multiple stages, performs static code analysis with SonarQube, and integrates security scanning with Trivy.
+
+
+
