@@ -30,26 +30,16 @@ node server.js
 ### 4. Building Docker Image 
 For this first you have to login to Docker Desktop
 ```bash
-docker build -t <username_of_docker-desktop>/k8s-node-app:v1 .
+docker build -t <username_of_docker-desktop>/<Imagename> .
 
 ```
 
 ### 5. Running Container
 ```bash
-docker run -p 3000:3000 <username>/k8s-node-app:v1
+docker run -p 3000:3000 <username>/<imagename>
 ```
 ### 6: Pushing 
 ```bash
-docker push <username>/k8s-node-app:v1
+docker push <username>/<imagename>:version
+```
 
-```
-### 7: Deploy the Application on Kubernetes
-Now that the Docker image is built and pushed, you can follow the earlier steps to deploy your application on Kubernetes.
-Apply the Kubernetes configuration:
-```bash
-kubectl apply -f deployment.yaml
-```
-Check the status of your pods:
-```bash
-kubectl get pods
-```
